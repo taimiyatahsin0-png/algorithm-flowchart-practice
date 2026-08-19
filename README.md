@@ -125,8 +125,9 @@ Input the Cost Price and Selling Price of a product and determine whether there 
 
 ### Flowchart
 
+```mermaid
 flowchart TD
-    A([Start]) --> B["Input Cost Price (CP) and Selling Price (SP)"]
+    A([Start]) --> B["Input Cost Price CP and Selling Price SP"]
     B --> C{"SP > CP?"}
     C -->|Yes| D["Display Profit"]
     C -->|No| E{"SP < CP?"}
@@ -135,7 +136,7 @@ flowchart TD
     D --> H([End])
     F --> H
     G --> H
-
+```
 
 ---
 
